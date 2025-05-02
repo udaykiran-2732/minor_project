@@ -1,0 +1,191 @@
+# Ignore the model directory
+lg/sign_language/models/Sign-Language-To-Text-and-Speech-Conversion-master/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+myenv1/
+venv/
+ENV/
+env/
+.env/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# TensorFlow and large model files
+*.h5
+*.pb
+*.ckpt
+*.meta
+*.data-00000-of-00001
+*.index
+*.tflite
+*.lite
+*.tfl
+*.lite
+*.tflite
+*.pb
+*.pbtxt
+*.prototxt
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.hdf5
+*.h5
+*.model
+*.weights
+*.bin
+*.dat
+*.idx
+*.meta
+*.data
+*.index
+*.ckpt
+
+# Media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.m2v
+*.m4v
+*.3gp
+*.3g2
+*.f4v
+*.f4p
+*.f4a
+*.f4b
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project specific
+sign_language/static/sign_language/images/recording.mov
+sign_language/models/
+sign_language/static/sign_language/videos/
+sign_language/static/sign_language/audio/
+
+# Large binary files
+*.dylib
+*.so
+*.dll
+*.exe
+*.bin
+*.dat
+*.idx
+*.meta
+*.data
+*.index
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Distribution / packaging
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
